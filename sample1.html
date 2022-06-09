@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="http://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <center>
+    <div class="content"><br><br>
+        <h2>Add Product</h2><br>
+        <table>
+            <div class="form">
+            <tr>
+                <td>Product Name:</td>
+                <td><input type="text" class="input-field1" id="productname" placeholder="Enter your product name"></td>
+            </tr>
+            <tr>
+                <td>Description:</td>
+                <td><textarea type="text" class="input-field2" id="description" placeholder="Type here"></textarea></td>
+            </tr>
+            <tr>
+                <td>Categories:</td>
+                <td>
+                <select name="" id="cat" class="input-field">
+                    <option value="">select</option>
+                    <option value="Vegtables">Vegtables</option>
+                    <option value="Fruits">Fruits</option>
+                    <option value="Nuts">Nuts</option>
+                </select>
+                </td>
+                <td>Sub Categories:</td>
+                <td>
+                    <select name="" id="sub" class="subcategory">
+                        <option value="">Select your sub categories</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Weight:</td>
+                <td><input type="text" class="why" placeholder="Weight"></td>
+                <td>Unit:</td>
+                <td>
+                    <select name="" id="state" class="input-field">
+                        <option value="">select</option>
+                        <option value="Kg">Kg</option>
+                        <option value="g">g</option>
+                        <option value="t">t</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Quantity:</td>
+                <td><input type="text" class="input-field" id="qty" placeholder="Qty"></td>
+                <td>Amount:</td>
+                <td><input type="text" class="input-field" id="amount" placeholder="$: 200"></td>
+            </tr>
+            </div>
+        </table>
+        <input class="button" type="button" value="Add" />
+    </div>
+    <table class="table">
+    </table>
+    <script src="sample1.js"></script>
+</center>
+</body>
+</html>
